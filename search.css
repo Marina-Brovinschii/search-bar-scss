@@ -1,0 +1,110 @@
+body {
+  background-color: #530303;
+}
+
+.form .form-fieldset.color-1 {
+  background-color: #000066;
+}
+
+.form .form-fieldset.color-2 {
+  background-color: #530303;
+}
+
+.form .form-fieldset.color-3 {
+  background-color: #003300;
+}
+
+.form .form-fieldset.color-4 {
+  background-color: #999966;
+}
+
+.form .form-fieldset.color-5 {
+  background-color: #666699;
+}
+
+.form .form-fieldset.color-6 {
+  background-color: #00cc99;
+}
+
+.form .form-fieldset.width-long {
+  width: 40em;
+}
+
+.form .form-fieldset.width-mediu {
+  width: 30em;
+}
+
+.form .form-fieldset.width-small {
+  width: 20em;
+}
+
+.form .form-fieldset__legend.size-lg {
+  font-size: 30px;
+}
+
+.form .form-fieldset__legend.size-md {
+  font-size: 25px;
+}
+
+.form .form-fieldset__legend.size-sm {
+  font-size: 20px;
+}
+
+.form .form-fieldset__input.width-long {
+  width: 40em;
+}
+
+.form .form-fieldset__input.width-mediu {
+  width: 30em;
+}
+
+.form .form-fieldset__input.width-small {
+  width: 20em;
+}
+
+.form .form-fieldset__input {
+  margin-left: 2em;
+  border-radius: 5%;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.form .form-fieldset__input::before {
+  content: url(mic-icon.png);
+}
+
+.form-fieldset .form-fieldset__input.height-h {
+  height: 2.5em;
+}
+
+.form-fieldset .form-fieldset__input.height-m {
+  height: 2em;
+}
+
+.form-fieldset .form-fieldset__input.height-s {
+  height: 1.5em;
+}
+
+.form-fieldset__button {
+  background-image: url(search-24-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  margin-left: 2em;
+  width: 4em;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.form-fieldset__button.height-h {
+  height: 2.5em;
+}
+
+.form-fieldset__button.height-m {
+  height: 2em;
+}
+
+.form-fieldset__button.height-s {
+  height: 1.5em;
+}/*# sourceMappingURL=search.css.map */
