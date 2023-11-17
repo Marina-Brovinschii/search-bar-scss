@@ -1,7 +1,6 @@
 @use 'sass:list';
 
-$colors:#000066, #530303, #003300, #999966, #666699, #00cc99;
-$color-text: white, grey, black;
+$colors:#000066, #530303, #003300, #999966, #666699, #00cc99, white, grey, black;
 $sizes:("lg": 30px, "md": 25px, "sm": 20px);
 $width:("long": 40em, "mediu": 30em, "small": 20em);
 $height:("h": 2.5em, "m": 2em, "s": 1.5em);
@@ -10,10 +9,22 @@ $n:1;
 body {
     background-color: list.nth($colors,2);
 }
+.form-fieldset {
+    position: relative;
+    a {
+        position: absolute;
+        left: 2.5em;
+    }
+}
 @each $color in $colors {
     .form .form-fieldset {
         &.color-#{$n} {
-            background-color: list.nth($colors,$n);
+            background-color: list.nth($colors, $n);
+        }
+    }
+    .form-fieldset__legend {
+        &.color-#{$n} {
+            color: list.nth($colors, $n);
         }
     }
     $n: $n + 1;
@@ -45,9 +56,7 @@ body {
     border: none;
     display: inline-block;
     vertical-align: middle;
-    &::before {
-        content: url(mic-icon.png);
-    }
+    padding-left: 2em;
 }
 @each $key, $value in $height {
     .form-fieldset .form-fieldset__input {
