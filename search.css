@@ -2,28 +2,84 @@ body {
   background-color: #530303;
 }
 
+.form-fieldset {
+  position: relative;
+}
+.form-fieldset a {
+  position: absolute;
+  left: 2.5em;
+}
+
 .form .form-fieldset.color-1 {
   background-color: #000066;
+}
+
+.form-fieldset__legend.color-1 {
+  color: #000066;
 }
 
 .form .form-fieldset.color-2 {
   background-color: #530303;
 }
 
+.form-fieldset__legend.color-2 {
+  color: #530303;
+}
+
 .form .form-fieldset.color-3 {
   background-color: #003300;
+}
+
+.form-fieldset__legend.color-3 {
+  color: #003300;
 }
 
 .form .form-fieldset.color-4 {
   background-color: #999966;
 }
 
+.form-fieldset__legend.color-4 {
+  color: #999966;
+}
+
 .form .form-fieldset.color-5 {
   background-color: #666699;
 }
 
+.form-fieldset__legend.color-5 {
+  color: #666699;
+}
+
 .form .form-fieldset.color-6 {
   background-color: #00cc99;
+}
+
+.form-fieldset__legend.color-6 {
+  color: #00cc99;
+}
+
+.form .form-fieldset.color-7 {
+  background-color: white;
+}
+
+.form-fieldset__legend.color-7 {
+  color: white;
+}
+
+.form .form-fieldset.color-8 {
+  background-color: grey;
+}
+
+.form-fieldset__legend.color-8 {
+  color: grey;
+}
+
+.form .form-fieldset.color-9 {
+  background-color: black;
+}
+
+.form-fieldset__legend.color-9 {
+  color: black;
 }
 
 .form .form-fieldset.width-long {
@@ -68,9 +124,7 @@ body {
   border: none;
   display: inline-block;
   vertical-align: middle;
-}
-.form .form-fieldset__input::before {
-  content: url(mic-icon.png);
+  padding-left: 2em;
 }
 
 .form-fieldset .form-fieldset__input.height-h {
